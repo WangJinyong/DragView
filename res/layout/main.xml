@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<com.blahti.example.drag.DragLayer
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText
+	android:id="@+id/Text1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<ImageView
+    android:id="@+id/Image1"
+    android:src="@drawable/photo1"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:layout_width="80dp"
+    android:layout_height="100dp" />
+<ImageView
+    android:id="@+id/Image2"
+    android:src="@drawable/photo2"
+    android:layout_weight="50" 
+    android:adjustViewBounds="true"
+    android:layout_width="50dp"
+    android:layout_height="80dp" />
+
+</com.blahti.example.drag.DragLayer>
+
+<Button
+        android:id="@+id/add_item_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/button1Text" />
+
+    <Button
+        android:id="@+id/view_poem_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/add_item_btn"
+        android:text="@string/button2Text" />
+        
+</RelativeLayout>

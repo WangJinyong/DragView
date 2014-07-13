@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Press and hold to drag a view</string>
+    <string name="app_name">Drag A View</string>
+    <string name="button1Text">Add Word</string>
+    <string name="button2Text">View Poem</string>
+</resources>
